@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Author: starshore -->
+<GameData>
+	<LocalizedText>
+
+		<Replace Tag="LOC_BUILDING_QE_REVELATION_NAME" Language="zh_Hans_CN">
+			<Text>神启</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QE_REVELATION_NAME" Language="en_US">
+			<Text>Revelation</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_QE_REVELATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>天人合一，道法自然</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_QE_REVELATION_DESCRIPTION" Language="en_US">
+			<Text>Heaven and man are one, and the Tao is natural</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_QE_REVELATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>秦始皇治下工匠获得神灵的启示，建立神启工坊，获得大量住房、食物和生产力加成，同时广纳贤才，奇人异士纷纷携带金银异宝来投。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_QE_REVELATION_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Under the rule of Emperor Qin Shihuang, craftsmen obtained the Enlightenment of the gods, established Shenqi workshops, and obtained a large number of housing, food and productivity bonuses. At the same time, talents were recruited, and strange people and scholars came to invest one after another.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_QE_REVELATION_NAME" Language="zh_Hans_CN">
+			<Text>天人合一，道法自然</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QE_REVELATION_NAME" Language="en_US">
+			<Text>Heaven and man are one, and the Tao is natural</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_QE_REVELATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>秦始皇治下工匠获得神灵的启示，建立神启工坊，获得大量住房、食物和生产力加成，同时广纳贤才，奇人异士纷纷携带金银异宝来投。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_QE_REVELATION_DESCRIPTION" Language="en_US">
+			<Text>Under the rule of Emperor Qin Shihuang, craftsmen obtained the Enlightenment of the gods, established Shenqi workshops, and obtained a large number of housing, food and productivity bonuses. At the same time, talents were recruited, and strange people and scholars came to invest one after another.</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

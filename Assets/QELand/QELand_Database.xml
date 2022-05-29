@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: starshore -->
+<GameData>
+	<!-- Leader Feature: -->
+	<!-- 定义一个增强领土属性的buff -->
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_QE_LAND" ModifierId="QE_LAND_PLOT_ADDFAITH_FOOD"/>
+		<Row TraitType="TRAIT_LEADER_QE_LAND" ModifierId="QE_LAND_PLOT_ADDFAITH_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_QE_LAND" ModifierId="QE_LAND_PLOT_ADDFAITH_GOLD"/>
+		<Row TraitType="TRAIT_LEADER_QE_LAND" ModifierId="QE_LAND_PLOT_ADDFAITH_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_QE_LAND" ModifierId="QE_LAND_PLOT_ADDFAITH_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_QE_LAND" ModifierId="QE_LAND_PLOT_ADDFAITH_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_QE_LAND" ModifierId="QE_LAND_INCREASED_TILES"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_INCREASED_TILES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CITY_TILES</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_PLOT_ADDFAITH_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>QE_LAND_INCREASED_TILES</ModifierId>
+			<Name>Amount</Name>
+			<Value>84</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- 马库斯·李锡尼·克拉苏使用次数增加 -->
+	<GreatPersonIndividuals>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARCUS_LICINIUS_CRASSUS"/>
+			<Set ActionCharges="999"/>
+		</Update>
+	</GreatPersonIndividuals>
+
+	<!-- 将秦帝国领土特性加入到秦始皇的特色列表 -->
+	<Types>
+		<Replace Type="TRAIT_LEADER_QE_LAND" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<LeaderTraits>
+		<Replace LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_QE_LAND"/>
+	</LeaderTraits>
+
+	<Traits>
+		<Replace TraitType="TRAIT_LEADER_QE_LAND" Name="LOC_TRAIT_LEADER_QE_LAND_NAME" Description="LOC_TRAIT_LEADER_QE_LAND_DESCRIPTION"/>
+	</Traits>
+
+</GameData>

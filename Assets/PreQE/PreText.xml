@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: starshore -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>秦王扫六合，虎视何雄哉！挥剑决浮云，诸侯尽西来。</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION" Language="en_US">
+            <Text>The King of Qin swept Liuhe, and the tiger looked at He Xiongya! Swinging his sword to break the clouds, the princes came to the west.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

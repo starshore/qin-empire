@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: starshore -->
+<GameData>
+    <!-- Leader Feature: -->
+    <!-- 定义一个增强奇观属性的buff -->
+
+    <TraitModifiers>
+        <Row TraitType="TRAIT_LEADER_SKY_WONDERS" ModifierId="TRAIT_ADD_FOOD_FOR_WONDER"/>
+        <Row TraitType="TRAIT_LEADER_SKY_WONDERS" ModifierId="TRAIT_ADD_PRODUCTION_FOR_WONDER"/>
+        <Row TraitType="TRAIT_LEADER_SKY_WONDERS" ModifierId="TRAIT_ADD_GOLD_FOR_WONDER"/>
+        <Row TraitType="TRAIT_LEADER_SKY_WONDERS" ModifierId="TRAIT_ADD_SCIENCE_FOR_WONDER"/>
+        <Row TraitType="TRAIT_LEADER_SKY_WONDERS" ModifierId="TRAIT_ADD_CULTURE_FOR_WONDER"/>
+        <Row TraitType="TRAIT_LEADER_SKY_WONDERS" ModifierId="TRAIT_ADD_FAITH_FOR_WONDER"/>
+    </TraitModifiers>
+
+    <Modifiers>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_FOOD_FOR_WONDER</ModifierId>
+            <ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_FOOD_FOR_WONDER_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_WONDER_YIELD_CHANGE</ModifierType>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_PRODUCTION_FOR_WONDER</ModifierId>
+            <ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_PRODUCTION_FOR_WONDER_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_WONDER_YIELD_CHANGE</ModifierType>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_GOLD_FOR_WONDER</ModifierId>
+            <ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_GOLD_FOR_WONDER_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_WONDER_YIELD_CHANGE</ModifierType>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_SCIENCE_FOR_WONDER</ModifierId>
+            <ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_SCIENCE_FOR_WONDER_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_WONDER_YIELD_CHANGE</ModifierType>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_CULTURE_FOR_WONDER</ModifierId>
+            <ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_CULTURE_FOR_WONDER_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_WONDER_YIELD_CHANGE</ModifierType>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_FAITH_FOR_WONDER</ModifierId>
+            <ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_FAITH_FOR_WONDER_MODIFIER</ModifierId>
+            <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_WONDER_YIELD_CHANGE</ModifierType>
+        </Row>
+
+    </Modifiers>
+
+    <ModifierArguments>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_FOOD_FOR_WONDER</ModifierId>
+            <Name>ModifierId</Name>
+            <Value>TRAIT_ADD_FOOD_FOR_WONDER_MODIFIER</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_FOOD_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_FOOD</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_FOOD_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>Amount</Name>
+            <Value>3</Value>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_PRODUCTION_FOR_WONDER</ModifierId>
+            <Name>ModifierId</Name>
+            <Value>TRAIT_ADD_PRODUCTION_FOR_WONDER_MODIFIER</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_PRODUCTION_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_PRODUCTION</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_PRODUCTION_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>Amount</Name>
+            <Value>3</Value>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_GOLD_FOR_WONDER</ModifierId>
+            <Name>ModifierId</Name>
+            <Value>TRAIT_ADD_GOLD_FOR_WONDER_MODIFIER</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_GOLD_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_GOLD</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_GOLD_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>Amount</Name>
+            <Value>3</Value>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_SCIENCE_FOR_WONDER</ModifierId>
+            <Name>ModifierId</Name>
+            <Value>TRAIT_ADD_SCIENCE_FOR_WONDER_MODIFIER</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_SCIENCE_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_SCIENCE</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_SCIENCE_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>Amount</Name>
+            <Value>3</Value>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_CULTURE_FOR_WONDER</ModifierId>
+            <Name>ModifierId</Name>
+            <Value>TRAIT_ADD_CULTURE_FOR_WONDER_MODIFIER</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_CULTURE_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_CULTURE</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_CULTURE_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>Amount</Name>
+            <Value>3</Value>
+        </Row>
+
+        <Row>
+            <ModifierId>TRAIT_ADD_FAITH_FOR_WONDER</ModifierId>
+            <Name>ModifierId</Name>
+            <Value>TRAIT_ADD_FAITH_FOR_WONDER_MODIFIER</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_FAITH_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>YieldType</Name>
+            <Value>YIELD_FAITH</Value>
+        </Row>
+        <Row>
+            <ModifierId>TRAIT_ADD_FAITH_FOR_WONDER_MODIFIER</ModifierId>
+            <Name>Amount</Name>
+            <Value>3</Value>
+        </Row>
+
+    </ModifierArguments>
+
+    <!-- 将奇观增强特性加入到秦始皇的特色列表 -->
+    <Types>
+        <Row Type="TRAIT_LEADER_SKY_WONDERS" Kind="KIND_TRAIT"/>
+    </Types>
+
+    <LeaderTraits>
+        <Replace LeaderType="LEADER_QIN" TraitType="TRAIT_LEADER_SKY_WONDERS"/>
+    </LeaderTraits>
+
+    <Traits>
+        <Row TraitType="TRAIT_LEADER_SKY_WONDERS" Name="LOC_TRAIT_LEADER_SKY_WONDERS_NAME" Description="LOC_TRAIT_LEADER_SKY_WONDERS_DESCRIPTION"/>
+    </Traits>
+
+</GameData>

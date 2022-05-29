@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: starshore -->
+<GameData>
+    <LocalizedText>
+        
+        <Replace Tag="LOC_TRAIT_LEADER_QE_LAND_NAME" Language="zh_Hans_CN">
+            <Text>普天之下，莫非王土</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_LEADER_QE_LAND_NAME" Language="en_US">
+            <Text>Under the whole world, there is no royal land</Text>
+        </Replace>
+        
+        <Replace Tag="LOC_TRAIT_LEADER_QE_LAND_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>秦始皇建立城市获得大量额外领土，其治下所有领土+1 [ICON_Food] 食物 [ICON_Production] 产能 [ICON_Gold] 金币 [ICON_Science] 科研 [ICON_Culture] 文化 和 [ICON_Faith] 信仰。</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_LEADER_QE_LAND_DESCRIPTION" Language="en_US">
+            <Text>Qin Shihuang established cities to obtain a large number of additional territories. All the territories under his rule + 1 [ICON_Food] food [ICON_Production] capacity [ICON_Gold] gold [ICON_Science] scientific research [ICON_Culture] culture and [ICON_Faith].</Text>
+        </Replace>
+        
+    </LocalizedText>
+</GameData>

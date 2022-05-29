@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: starshore -->
+<GameData>
+	<!-- For simplicity, reuse an existing icon. -->
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_QE_REVELATION" Atlas="ICON_ATLAS_BUILDINGS" Index="47"/>
+		<Row Name="ICON_BUILDING_QE_REVELATION_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="47"/>
+	</IconDefinitions>
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: starshore -->
+<GameData>
+    <!-- Leader Feature: -->
+    <!-- 建造者：增加使用次数至9次，且可以加速全时代奇观一半进度 -->
+
+    <ModifierArguments>
+        <Update>
+            <Where ModifierId="TRAIT_ADJUST_BUILDER_CHARGES" Name="Amount"/>
+            <Set Value="6"/>
+        </Update>
+        <Update>
+            <Where ModifierId="TRAIT_BUILDER_WONDER_PERCENT" Name="Amount"/>
+            <Set Value="90"/>
+        </Update>
+    </ModifierArguments>
+
+    <UnitCommands>
+        <Update>
+            <Where CommandType="UNITCOMMAND_WONDER_PRODUCTION"/>
+            <Set MaxEra="8"/>
+        </Update>
+    </UnitCommands>
+</GameData>

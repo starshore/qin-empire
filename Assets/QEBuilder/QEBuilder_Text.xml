@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: starshore -->
+<GameData>
+
+    <LocalizedText>
+        <Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>秦王扫六合，虎视何雄哉！挥剑决浮云，诸侯尽西来。秦帝国工匠改良所有设施，并且可以加速奇观原始建造的九成进度，可使用九次。</Text>
+        </Replace>
+        <Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION" Language="en_US">
+            <Text>The King of Qin swept Liuhe, and the tiger looked at He Xiongya! Swinging his sword to break the clouds, the princes came to the west.The craftsmen of the Qin Empire improved all the facilities and could speed up the original construction process of the Spectacle by 50%, using it 9 times.</Text>
+        </Replace>
+    </LocalizedText>
+
+</GameData>

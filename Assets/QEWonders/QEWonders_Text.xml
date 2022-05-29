@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: starshore -->
+<GameData>
+    <LocalizedText>
+
+        <Row Tag="LOC_TRAIT_LEADER_SKY_WONDERS_NAME" Language="zh_Hans_CN">
+            <Text>受命于天，既寿永昌</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_LEADER_SKY_WONDERS_NAME" Language="en_US">
+            <Text>Ordained by heaven, he will live forever</Text>
+        </Row>
+        
+        <Row Tag="LOC_TRAIT_LEADER_SKY_WONDERS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>所有奇观+3 [ICON_Food] 食物 [ICON_Production] 产能 [ICON_Gold] 金币 [ICON_Science] 科研 [ICON_Culture] 文化 和 [ICON_Faith] 信仰。</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_LEADER_SKY_WONDERS_DESCRIPTION" Language="en_US">
+            <Text>All Wonders +3 [ICON_Food] Food [ICON_Production] Capacity [ICON_Gold] Gold Coins [ICON_Science] Research [ICON_Culture] Culture and [ICON_Faith] Faith.</Text>
+        </Row>
+
+    </LocalizedText>
+</GameData>
