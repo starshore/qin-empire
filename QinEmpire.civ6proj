@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Qin Empire Enhance.</Name>
+    <Guid>c6e9d05e-68fb-4617-b85a-02ac81c405d4</Guid>
+    <ProjectGuid>87f3359b-3a1b-42a7-a05d-e75d516cb93d</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Qin Empire Enhance.</Teaser>
+    <Description>Qin Empire Enhance.</Description>
+    <Authors>starshore</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>false</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>QinEmpire</AssemblyName>
+    <RootNamespace>QinEmpire</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="GlobalDatabase"><File>Assets/PreQE/PreDatabase.xml</File></UpdateDatabase><UpdateText id="GlobalText"><File>Assets/PreQE/PreText.xml</File></UpdateText></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Database"><File>Assets/QEBuilder/QEBuilder_Database.xml</File><File>Assets/QEWonders/QEWonders_Database.xml</File><File>Assets/QELand/QELand_Database.xml</File><File>Assets/QERevelation/QERevelation_Database.xml</File></UpdateDatabase><UpdateText id="Text"><File>Assets/QEBuilder/QEBuilder_Text.xml</File><File>Assets/QEWonders/QEWonders_Text.xml</File><File>Assets/QELand/QELand_Text.xml</File><File>Assets/QERevelation/QERevelation_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>Assets/QERevelation/QERevelation_Icons.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="QinEmpire.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\PreQE\PreDatabase.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\PreQE\PreText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QEBuilder\QEBuilder_Database.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QEBuilder\QEBuilder_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QELand\QELand_Database.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QELand\QELand_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QERevelation\QERevelation_Database.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QERevelation\QERevelation_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QERevelation\QERevelation_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QEWonders\QEWonders_Database.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\QEWonders\QEWonders_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Assets\PreQE\" />
+    <Folder Include="Assets\QEBuilder\" />
+    <Folder Include="Assets\QELand\" />
+    <Folder Include="Assets\QERevelation" />
+    <Folder Include="Assets\QEWonders\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
